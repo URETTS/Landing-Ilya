@@ -1,5 +1,51 @@
+@font-face {
+font-family: 'Artegra Sans Alt SemiBold';
+    src: url('./fons/ArtegraSansAltSemiBold.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Artegra Sans Alt Regular';
+    src: url('./fons/ArtegraSansAltRegular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Artegra Sans Extended Alt Black';
+    src: url('/fons/ArtegraSansAltBlack.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Artegra Sans Alt Medium';
+    src: url('/fons/ArtegraSansAltMedium.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Artegra Sans Alt Bold';
+    src: url('/fons/ArtegraSansAltBold.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Artegra Sans Alt Light';
+    src: url('/fons/ArtegraSansAltLight.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Artegra Sans Alt SemiBold', sans-serif;
         color: #434455;
         background-color: #FFFFFF;
         margin: 0;
@@ -89,6 +135,8 @@ padding: 5px 0;
     font-weight: 500;
         font-size: 16px;
         line-height: 112%;
+        font-family: 'Artegra Sans Alt Medium',
+                sans-serif;
 }
 
 
@@ -117,6 +165,8 @@ padding-top: 233px;
         letter-spacing: 0.1em;
         text-align: center;
         color: #fff;
+        font-family: 'Artegra Sans Alt Bold',
+                sans-serif;
 }
 
 .menu_batton:hover,
@@ -140,6 +190,8 @@ padding-top: 233px;
 }
 
 .title {
+    font-family: 'Artegra Sans Alt Bold',
+            sans-serif;
     font-weight: 400;
         font-size: 48px;
         line-height: 100%;
@@ -149,6 +201,7 @@ padding-top: 233px;
 }
 
 .overview {
+    font-family: 'Artegra Sans Alt Light',sans-serif;
     font-weight: 400;
         font-size: 16px;
         color: #000;
@@ -221,6 +274,8 @@ z-index: 1;
 }
 
 .pricing-card h3 {
+    font-family: 'Artegra Sans Extended Alt Black',
+            sans-serif;
     font-weight: 400;
         font-size: 24px;
         line-height: 100%;
@@ -231,6 +286,8 @@ z-index: 1;
 }
 
 .pricing-card p {
+    font-family: 'Artegra Sans Alt Light',
+            sans-serif;
     font-weight: 400;
         font-size: 16px;
         color: #000;
@@ -239,6 +296,8 @@ z-index: 1;
 }
 
 .pricing-card .price {
+    font-family: 'Artegra Sans Extended Alt Black',
+            sans-serif;
     font-weight: 400;
         font-size: 24px;
         color: #03557a;
@@ -316,6 +375,8 @@ font-weight: 400;
         letter-spacing: 0.1em;
         text-align: center;
         color: #31a7b3;
+        font-family: 'Artegra Sans Alt Bold',
+                sans-serif;
 }
 
 .pricing-card button:hover,
@@ -351,6 +412,8 @@ font-weight: 400;
 }
 
 .calculator-panel h2 {
+    font-family: 'Artegra Sans Extended Alt Black',
+            sans-serif;
     font-weight: 400;
     font-size: 24px;
     color: #000;
@@ -358,6 +421,8 @@ font-weight: 400;
 }
 
 .calculator-panel .price {
+    font-family: 'Artegra Sans Extended Alt Black',
+            sans-serif;
     font-weight: 400;
     font-size: 24px;
     color: #03557a;
@@ -481,6 +546,8 @@ font-weight: 400;
         letter-spacing: 0.1em;
     cursor: pointer;
     margin-top: 32px;
+    font-family: 'Artegra Sans Alt Bold',
+            sans-serif;
 }
 
 .purchase-button:hover,
@@ -506,6 +573,8 @@ font-weight: 400;
 }
 
 .image-panel h2 {
+    font-family: 'Artegra Sans Extended Alt Black',
+            sans-serif;
     font-weight: 400;
     font-size: 48px;
     color: #d4f2f5;
@@ -538,6 +607,8 @@ font-weight: 400;
 }
 
 .about {
+    font-family: 'Artegra Sans Extended Alt Black',
+            sans-serif;
     font-weight: 400;
         font-size: 48px;
         line-height: 100%;
@@ -569,6 +640,8 @@ font-weight: 400;
 }
 
 .card h3 {
+    font-family: 'Artegra Sans Extended Alt Black',
+            sans-serif;
     font-weight: 400;
         font-size: 24px;
         line-height: 100%;
@@ -577,6 +650,8 @@ font-weight: 400;
 }
 
 .card p {
+    font-family: 'Artegra Sans Alt Regular',
+            sans-serif;
     font-weight: 400;
         font-size: 16px;
         color: #fff;
@@ -611,6 +686,7 @@ footer {
 footer .container {
     padding: 0;
     display: flex;
+    padding-bottom: 10px;
     
 }
 
@@ -632,6 +708,8 @@ width: 203px;
 }
 
 .footer-logo a {
+    font-family: 'Artegra Sans Alt Regular',
+            sans-serif;
     font-weight: 400;
     font-size: 14px;
     line-height: 143%;
@@ -646,6 +724,8 @@ width: 203px;
 }
 
 .footer-column h3 {
+    font-family: 'Artegra Sans Alt Medium',
+            sans-serif;
     font-weight: 500;
         font-size: 10px;
         line-height: 120%;
@@ -657,6 +737,8 @@ width: 203px;
 
 .footer-column p,
 .footer-column a {
+    font-family: 'Artegra Sans Alt Regular',
+            sans-serif;
     font-weight: 400;
         font-size: 14px;
         line-height: 143%;
@@ -676,6 +758,8 @@ width: 203px;
 }
 
 .footer-bottom {
+    font-family: 'Artegra Sans Alt Light',
+            sans-serif;
     padding: 4px;
     font-weight: 400;
         font-size: 9px;
