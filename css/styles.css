@@ -602,46 +602,65 @@ footer {
     padding-top: 24px;
 }
 
-
-.footer-column {
-    flex: 1;
-    min-width: 200px;
-    margin-bottom: 20px;
-}
-
-.footer-column h3 {
-    font-size: 14px;
-    font-weight: bold;
-    color: #888;
-    text-transform: uppercase;
-    margin-bottom: 15px;
-}
-
-.footer-column p,
-.footer-column a {
-    font-size: 14px;
-    color: #333;
-    text-decoration: none;
-    line-height: 1.6;
-}
-
-.footer-column a:hover {
-    color: #007bff;
+footer .container {
+    padding: 0;
+    display: flex;
+    
 }
 
 .footer-logo {
     display: flex;
     flex-direction: column;
+    margin-left: 323px;
+    margin-right: 64px;
+  gap: 5px;
+width: 203px;
 }
 
-.footer-logo img {
-    width: 50px;
-    height: auto;
-    margin-bottom: 15px;
+.footer-logo address {
+    font-weight: 400;
+        font-size: 14px;
+        line-height: 143%;
+        letter-spacing: -0.01em;
+        color: #1e1e1e;
 }
 
-.footer-logo p {
-    margin: 0;
+.footer-logo a {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 143%;
+    letter-spacing: -0.01em;
+    color: #1e1e1e;
+}
+
+.footer-column_main {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+
+.footer-column h3 {
+    font-weight: 500;
+        font-size: 10px;
+        line-height: 120%;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+        color: #787878;
+        padding-bottom: 8px;
+}
+
+.footer-column p,
+.footer-column a {
+    font-weight: 400;
+        font-size: 14px;
+        line-height: 143%;
+        letter-spacing: -0.01em;
+        color: #1e1e1e;
+}
+
+.footer-column a:hover,
+ .footer-column a:focus{
+    color: #007bff;
 }
 
 .payment-methods {
@@ -650,14 +669,13 @@ footer {
     margin-top: 15px;
 }
 
-.payment-methods img {
-    width: 40px;
-    height: auto;
-}
-
 .footer-bottom {
-    text-align: center;
-    padding-top: 10px;
-    font-size: 12px;
-    color: #888;
+    padding: 4px;
+    font-weight: 400;
+        font-size: 9px;
+        line-height: 150%;
+        text-transform: uppercase;
+        text-align: center;
+        color: #787878;
+        background: #efefef;
 }
