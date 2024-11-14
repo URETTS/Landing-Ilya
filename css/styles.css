@@ -119,6 +119,12 @@ padding-top: 233px;
         color: #fff;
 }
 
+.menu_batton:hover,
+.menu_batton:focus {
+    background-color: #245d7e;
+
+}
+
 .logo_frame {
     background-color: #fff;
     display: flex;
