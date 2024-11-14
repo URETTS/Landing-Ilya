@@ -2,8 +2,6 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="Landing" content="Best product you
-can find online">
     <title>SXX XXX</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -23,9 +21,12 @@ can find online">
     
    <header>
     <div class="container">
+
 <nav class="nav">
-    <ul class="page-nav">
+
+    <div class="nav-group_all">
         <div class="nav-group_left">
+            <ul class="page-nav">
         <li class="punkts">
             <a href="./index.html" class="linkcurrent">About Us</a>
         </li>
@@ -35,8 +36,11 @@ can find online">
         <li class="punkts">
             <a href="./index.html" class="linkcurrent">Resources</a>
         </li>
+        </ul>
         </div>
+
         <div class="nav-group_right">
+            <ul class="page-nav_two">
         <li class="punkts">
             <a href="./index.html" class="linkcurrent">News</a>
         </li>
@@ -46,13 +50,17 @@ can find online">
         <li class="punkts">
             <a href="./index.html" class="linkcurrent">Tools</a>
         </li>
+        </ul>
         </div>
-    </ul>
+        </div>
 </nav>
     </div>
    </header>
 
    <main>
+
+<!-- section-one  -->
+
     <section class="section-one">
         <div class="container">
             <svg class="main-icon" width="1278" height="245" viewBox="0 0 1278 245" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -113,6 +121,7 @@ can find online">
         </div>
     </section>
 
+    <!-- section-two -->
 
     <section class="section-two">
         <div class="container">
@@ -123,7 +132,7 @@ can find online">
             <ul>
                 <li>Product <span>2</span></li>
                 <li>Product <span>4</span></li>
-                <li>Product <span>Cheap <input type="checkbox" /> VIP 20 $</span></li>
+                <li>Product <span>Cheap <input type="checkbox" class="toggle-switch" /> VIP 20 $</span></li>
                 <li>Product <span>100 $</span></li>
                 <li>Product <span>For free</span></li>
             </ul>
@@ -138,7 +147,7 @@ can find online">
             <ul>
                 <li>Product <span>4</span></li>
                 <li>Product <span>8</span></li>
-                <li>Product <span>Cheap <input type="checkbox" /> VIP 20 $</span></li>
+                <li>Product <span>Cheap <input type="checkbox" class="toggle-switch" /> VIP 20 $</span></li>
                 <li>Product <span>200 $</span></li>
                 <li>Product <span>For Free</span></li>
             </ul>
@@ -153,7 +162,7 @@ can find online">
             <ul>
                 <li>Product <span>8</span></li>
                 <li>Product <span>16</span></li>
-                <li>Product size <span>Big <input type="checkbox" /> Small 80 $</span></li>
+                <li>Product size <span>Big <input type="checkbox" class="toggle-switch" /> Small 80 $</span></li>
                 <li>Product <span>400 $</span></li>
                 <li>Product <span>Unlimited</span></li>
             </ul>
@@ -162,14 +171,80 @@ can find online">
         </div>
     </section>
 
+<!-- section-three -->
 
-
-
-    <section>
+    <section class="section-three">
         <div class="container">
+            <div class="calculator-section">
+                <div class="calculator-panel">
+                    <h2>Calculation</h2>
+                    <p class="price">$45.00/mo</p>
             
+                    <div class="product-control">
+                        <label>Product</label>
+                        <input type="range" min="0" max="10" value="8">
+                        <span>8$</span>
+                    </div>
+            
+                    <div class="product-control">
+                        <label>Product</label>
+                        <input type="range" min="0" max="20" value="16">
+                        <span>16$</span>
+                    </div>
+            
+                    <div class="product-control">
+                        <label>Product</label>
+                        <div class="toggle">
+                            <label>BIG</label>
+                            <input type="checkbox" checked>
+                            <label>Small</label>
+                        </div>
+                    </div>
+            
+                    <div class="product-control">
+                        <label>Product</label>
+                        <input type="range" min="0" max="200" value="100">
+                        <span>100$</span>
+                    </div>
+            
+                    <div class="product-control">
+                        <label>Product</label>
+                        <input type="range" min="0" max="5" value="2">
+                        <span>2$</span>
+                    </div>
+            
+                    <div class="product-control">
+                        <label>Product</label>
+                        <div class="switch">
+                            <label>On</label>
+                            <input type="checkbox" checked>
+                            <label>Off</label>
+                        </div>
+                    </div>
+            
+                    <button class="purchase-button">Purchase</button>
+                </div>
+            
+                <div class="image-panel">
+                    <h2>Calculate the cost according to personal settings</h2>
+                    <div class="image-container">
+                        <img src="/image/smiling-redhead-girl-using-laptop-lookingrff 1.png" alt="Girl with laptop">
+                    </div>
+                </div>
+            </div>
+
         </div>
     </section>
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -232,23 +307,82 @@ can find online">
     </section>
 
 
-
-
-
-
-    
-    <section>
+    <section class="section-five">
         <div class="container">
-        
+        <div class="box"></div>
         </div>
     </section>
-
 
    </main>
 
    <footer>
     <div class="container">
-
+<div class="footer-column footer-logo">
+    <svg class="icon_media_footer" width="19" height="19">
+        <use href=""></use>
+    </svg> 
+    <svg class="icon_media_footer" width="64" height="13">
+        <use href=""></use>
+    </svg>
+    <address>Street, Brooklyn, New York</address>
+    <a href="tel:+1234567890">+1 (234) 567-890</a>
+    <p><a href="mailto:info@product.com">info@product.com</a></p>
+</div>
+<div class="footer-column">
+    <h3>Product</h3>
+    <a href="#">Product</a><br>
+    <a href="#">Product</a><br>
+    <a href="#">Product</a>
+</div>
+<div class="footer-column">
+    <h3>Legal</h3>
+    <a href="#">Terms of service</a><br>
+    <a href="#">Service level agreement</a><br>
+    <a href="#">Privacy policy</a><br>
+    <a href="#">Refund policy</a>
+</div>
+<div class="footer-column">
+    <h3>How To</h3>
+    <a href="#">Product</a><br>
+    <a href="#">Product</a><br>
+    <a href="#">Product</a><br>
+    <a href="#">Product</a><br>
+    <a href="#">Product</a><br>
+    <a href="#">Product</a>
+</div>
+<div class="footer-column">
+    <h3>Reseller Program</h3>
+    <h3>Payment Methods</h3>
+    <div class="payment-methods">
+        <svg  width="35" height="24" >
+            <use href=""></use>
+        </svg> 
+        <svg width="35" height="24" >
+            <use href=""></use>
+        </svg> 
+        <svg width="35" height="24" >
+            <use href=""></use>
+        </svg> 
+    <svg width="35" height="24" >
+        <use href=""></use>
+    </svg> 
+        <svg width="35" height="24">
+            <use href=""></use>
+        </svg> 
+        <svg width="35" height="24">
+            <use href=""></use>
+        </svg>
+    </div>
+</div>
+<div class="footer-column">
+    <h3>Tools</h3>
+    <a href="#">Product</a><br>
+    <a href="#">Product</a><br>
+    <a href="#">Product</a>
+</div>
+</div>
+<div class="footer-bottom">
+    <p>2024</p>
     </div>
    </footer>
 </body>
