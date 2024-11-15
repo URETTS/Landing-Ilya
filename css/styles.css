@@ -1,11 +1,11 @@
 @font-face {
 font-family: 'Artegra Sans Alt SemiBold';
-    src: url('/fons/ArtegraSansAltSemiBold.woff2') format('woff2');
+    src: url('../fons/ArtegraSansAltSemiBold.woff2') format('woff2');
 }
 
 @font-face {
     font-family: 'Artegra Sans Alt Regular';
-    src: url('/fons/ArtegraSansAltRegular.woff2') format('woff2');
+    src: url('../fons/ArtegraSansAltRegular.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
 }
@@ -13,7 +13,7 @@ font-family: 'Artegra Sans Alt SemiBold';
 
 @font-face {
     font-family: 'Artegra Sans Extended Alt Black';
-    src: url('/fons/ArtegraSansAltBlack.woff2') format('woff2');
+    src: url('../fons/ArtegraSansAltBlack.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
 }
@@ -21,7 +21,7 @@ font-family: 'Artegra Sans Alt SemiBold';
 
 @font-face {
     font-family: 'Artegra Sans Alt Medium';
-    src: url('/fons/ArtegraSansAltMedium.woff2') format('woff2');
+    src: url('../fons/ArtegraSansAltMedium.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
 }
@@ -29,14 +29,14 @@ font-family: 'Artegra Sans Alt SemiBold';
 
 @font-face {
     font-family: 'Artegra Sans Alt Bold';
-    src: url('/fons/ArtegraSansAltBold.woff2') format('woff2');
+    src: url('../fons/ArtegraSansAltBold.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Artegra Sans Alt Light';
-    src: url('/fons/ArtegraSansAltLight.woff2') format('woff2');
+    src: url('../fons/ArtegraSansAltLight.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
 }
